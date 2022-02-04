@@ -2,7 +2,11 @@ import React from 'react';      // rfce
 
 function Header() {
     return (
-        <div>Functional Component</div>
+        <div className="ui fixed menu">
+            <div className="ui container center">
+                <h2>Contact Manager</h2>
+            </div>
+        </div>
     );
 }
 
